@@ -60,7 +60,6 @@ services:
       MONGO_PASSWORD: ${MONGO_PASSWORD}
     ports:
       - '81:80'
-      - '9000:9000'
     depends_on:
       - mysql
       - mdb
