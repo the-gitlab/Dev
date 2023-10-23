@@ -1,6 +1,6 @@
-Before begine ensure that port 80 and 81 are free to use in your system.
+Ensure that port 80 and 81 are free to use in your system.
 
-You can run the projeckt with:
+You can run the project with:
 docker compose up -d
 
 When containers are up and running, you can access the Prod at "http://localhost:80"
